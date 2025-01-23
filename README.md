@@ -25,26 +25,9 @@ Demonstrate GPIO-based sensor and LED control.
 ## Software Tools
  - Arduino IDE (for code development and uploading)
 
-## Implementation
-The system operates as follows:
 
-Initialization: Configure GPIO pins for the PIR sensor, LDR sensor, and LEDs.
-Real-Time Control:
-If motion is detected (PIR sensor output is HIGH) and the ambient light level is below a threshold (LDR sensor reading), the LED is turned on.
-If no motion is detected or the ambient light level is sufficient, the LED remains off.
-Code Flow: The source code demonstrates the main loop logic and sensor integration for real-time decision-making.
-Results
-
-## Images and observations from the experiments:
-
-Experiment 1: PIR sensor triggers the LED when motion is detected.
-
-Experiment 2: LDR adjusts LED activation based on ambient light.
-
-
-## GPIO pin configuration
-Real-time sensor data acquisition
-Logical decision-making for light control
+## Flowchart
+![Flowchart](picture/flow-chart.png)
 
 ## How to Use
 - Set up the hardware connections as per the schematic.
@@ -63,3 +46,5 @@ Dewo Antonioly
 Ferensia Fransisca Agatha
 
 Grace Agustina Hutagalung
+
+> The report is only available in Bahasa Indonesia
